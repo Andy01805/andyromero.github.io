@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="Utf-8" />
+        <title>Audio en html</title>
+        <link rel="stylesheet" href="../css/style.css" type="text/css">
+        <style type="text/css">
+            main{
+                text-align: center;
+            }
+            main section{
+                width: 40%;
+                height: 600px;
+                display: inline-block;
+                margin-left: 20px;
+                margin-right: 20px;
+                overflow-y: auto;
+            }
+            main h2, main p{
+                text-align: left;
+            }
+        </style>
+    </head>
+    <body>
+        <header>
+            <h1>AUDIOS</h1>
+        </header>
+        <nav>
+            <ul>
+                <li><a href="Enlaces.html">Formato</a></li>
+                <li><a href="Listas.html">Listas</a></li>
+                <li><a href="Enlaces.html">Enlaces</a></li>
+                <li><a href="Tablas.html">Tablas</a></li>
+                <li><a href="Imagenes.html">Imagenes</a></li>
+                <li><a href="Audio.html">Audio</a></li>
+                <li><a href="">Videos</a></li>
+                <li><a href="">Formularios</a></li>
+            </ul>  
+        </nav>
+        <main>
+            <section>
+                <h2>Audio Simple</h2>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras ac porta quam, non scelerisque leo. Suspendisse vitae magna eget tortor suscipit consequat id eu justo. Vestibulum pellentesque ligula eu arcu dignissim, nec cursus lorem viverra. Integer sollicitudin dui ut ipsum dignissim gravida. Duis ac iaculis urna. Nullam sed finibus dolor, quis commodo ipsum. Donec rhoncus eros at turpis maximus suscipit. Donec ac elit feugiat, porttitor orci nec, venenatis justo. Suspendisse tincidunt felis eget orci pharetra, tristique venenatis tellus pretium.</p>
+                <audio controls>
+                    <source src="audio/What%20If%20So%20Then%20-%20Karneef.mp3" type="audio/mp3">
+                    El navegador no soporta el formato de audio.
+                </audio>
+            </section>
+            <section>
+                <h2>Audio con autoplay y silenciado</h2>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras ac porta quam, non scelerisque leo. Suspendisse vitae magna eget tortor suscipit consequat id eu justo. Vestibulum pellentesque ligula eu arcu dignissim, nec cursus lorem viverra. Integer sollicitudin dui ut ipsum dignissim gravida. Duis ac iaculis urna. Nullam sed finibus dolor, quis commodo ipsum. Donec rhoncus eros at turpis maximus suscipit. Donec ac elit feugiat, porttitor orci nec, venenatis justo. Suspendisse tincidunt felis eget orci pharetra, tristique venenatis tellus pretium.</p>
+                <audio controls autoplay muted>
+                    <source src="audio/What%20If%20So%20Then%20-%20Karneef.mp3" type="audio/mp3">
+                    El navegador no soporta el formato de audio.
+                </audio>
+            </section>
+            <section>
+                <h2>Audio con reproduccion ciclica</h2>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras ac porta quam, non scelerisque leo. Suspendisse vitae magna eget tortor suscipit consequat id eu justo. Vestibulum pellentesque ligula eu arcu dignissim, nec cursus lorem viverra. Integer sollicitudin dui ut ipsum dignissim gravida. Duis ac iaculis urna. Nullam sed finibus dolor, quis commodo ipsum. Donec rhoncus eros at turpis maximus suscipit. Donec ac elit feugiat, porttitor orci nec, venenatis justo. Suspendisse tincidunt felis eget orci pharetra, tristique venenatis tellus pretium.</p>
+                <audio controls loop>
+                    <source src="audio/What%20If%20So%20Then%20-%20Karneef.mp3" type="audio/mp3">
+                    El navegador no soporta el formato de audio.
+                </audio>
+            </section>
+            <section>
+                <h2>Audio con repositorio: Ivoox</h2>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras ac porta quam, non scelerisque leo. Suspendisse vitae magna eget tortor suscipit consequat id eu justo. Vestibulum pellentesque ligula eu arcu dignissim, nec cursus lorem viverra. Integer sollicitudin dui ut ipsum dignissim gravida. Duis ac iaculis urna. Nullam sed finibus dolor, quis commodo ipsum. Donec rhoncus eros at turpis maximus suscipit. Donec ac elit feugiat, porttitor orci nec, venenatis justo. Suspendisse tincidunt felis eget orci pharetra, tristique venenatis tellus pretium.</p>
+                <iframe src="https://www.ivoox.com/player_ej_286249_6_1.html?c1=5a8717" width="100%" height="200" frameborder="0" allowfullscreen="" scrolling="no" loading="lazy"></iframe>
+            </section>
+            <section>
+                <h2>Audio con repositorio: Spotify</h2>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras ac porta quam, non scelerisque leo. Suspendisse vitae magna eget tortor suscipit consequat id eu justo. Vestibulum pellentesque ligula eu arcu dignissim, nec cursus lorem viverra. Integer sollicitudin dui ut ipsum dignissim gravida. Duis ac iaculis urna. Nullam sed finibus dolor, quis commodo ipsum. Donec rhoncus eros at turpis maximus suscipit. Donec ac elit feugiat, porttitor orci nec, venenatis justo. Suspendisse tincidunt felis eget orci pharetra, tristique venenatis tellus pretium.</p>
+                <iframe style="border-radius:12px" src="https://open.spotify.com/embed/track/5BWJVn8Iv265c4EjIkdfYb?utm_source=generator" width="100%" height="352" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
+            </section>
+            <section>
+                <h2>Audio con reproduccion: Spotify</h2>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras ac porta quam, non scelerisque leo. Suspendisse vitae magna eget tortor suscipit consequat id eu justo. Vestibulum pellentesque ligula eu arcu dignissim, nec cursus lorem viverra. Integer sollicitudin dui ut ipsum dignissim gravida. Duis ac iaculis urna. Nullam sed finibus dolor, quis commodo ipsum. Donec rhoncus eros at turpis maximus suscipit. Donec ac elit feugiat, porttitor orci nec, venenatis justo. Suspendisse tincidunt felis eget orci pharetra, tristique venenatis tellus pretium.</p>
+                <iframe style="border-radius:12px" src="https://open.spotify.com/embed/artist/0YC192cP3KPCRWx8zr8MfZ?utm_source=generator&theme=0" width="100%" height="152" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
+            </section>
+        </main>
+            <footer>
+                <h6>Elaborado por Andrés Emilio Romero Sánchez</h6>
+            </footer>
+    </body>
+</html>

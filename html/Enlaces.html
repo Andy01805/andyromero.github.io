@@ -1,0 +1,154 @@
+<!--
+        Facultad de Arquitectura
+        Colegio de Diseño Gráfico
+        Diseño de Interfaces Gráfico de Usuario
+        Romero Sánchez Andrés Emilio
+-->
+<!doctype html>
+<html>
+    <head>
+        <meta charset="UFT-8" />
+        <title>Enlaces en html</title>
+        <style type="text/css">
+            *{
+                padding: 0px;
+                margin. 0px;
+            }
+            header,nav,main,footer{
+                width: 1280px;
+                padding; 1000px;
+                background-color: darkblue;
+                color: aliceblue;
+                margin-left: auto;
+                margin-right: auto;
+            }
+            nav{
+                background-color: royalblue;
+            }
+            main{
+                background-color: lightblue
+            }
+            section{
+                width: 900px;
+                height: 400px;
+                background-color: cadetblue;
+                margin-bottom: 30px;
+                padding: 30px;
+                margin-left: auto;
+                margin-right: auto;
+            }
+            header, footer{
+                text-align: center;
+            }
+            h1{
+                font-size: 55px;
+                margin-bottom: 20px;
+                color: skyblue;
+            }
+            h2{
+                font-size: 30px;
+                color: darkkhaki;
+            }
+            h6{
+                font-size: 25px;
+            }
+            nav ul{
+                text-align: center;
+            }
+            nav ul li{
+                width: 80px;
+                background-color: lightblue;
+                list-style-type: none;
+                display: inline-block;
+                padding: 10px;
+                margin-top: 20px;
+                margin-bottom: 20px;
+                text-align: center;
+            }
+            p{
+                margin-top: 30px;
+            }
+            section a:visited, sectiona:link{
+                color: yellowgreen;
+                font-weight: bold;
+                text-decoration: none;
+            }
+            section a:active{
+                color: yellow;
+                font-weight: bold;
+            }
+            section a:hover{
+                color: deepskyblue;
+                font-weight: bold;
+                font-size: 18px;
+            }
+            nav a:link, nav a :visited{
+                color: mediumseagreen;
+                text-decoration: none;
+            }
+            nav ul li: hover{
+                background-color: slateblue;
+                width: 300px;
+            }
+        </style>
+    </head>
+    <body>
+        <header>
+            <h1>ENLACES</h1>
+        </header>
+        <nav>
+            <ul>
+                <li><a href="Formato.html">Formatos</a></li>
+                <li><a href="Listas.html">Listas</a></li>
+                <li><a href="Enlaces.html">Enlaces</a></li>
+                <li><a href="">Tablas</a></li>
+                <li><a href="">Imagenes</a></li>
+                <li><a href="">Audio</a></li>
+                <li><a href="">Video</a></li>
+                <li><a href="">Formularios</a></li>
+            </ul>
+        </nav>
+        <main>
+            <section>
+            <h2 id="externo">Enlace externo</h2>
+                <p>Lorem ipsum dolor sit amet, <a href="http://www.google.com">Google</a> consectetur adipiscing elit. Proin ex augue, semper ut est in, dignissim sagittis ligula. Phasellus pretium nunc in magna fringilla iaculis. Quisque in imperdiet urna, a ultricies eros.<a href="https://www.buap.mx">Benemérita Universidad Autónoma de Puebla</a> Proin pellentesque eget justo nec aliquet. Vestibulum ut libero vitae tellus vehicula rutrum et sed felis. Quisque ac purus vestibulum, ullamcorper mi et, consectetur urna. Nulla consequat ipsum sit amet leo mattis faucibus. Pellentesque faucibus placerat lacinia. Integer tincidunt dui et dui facilisis ullamcorper. Cras id eros at quam rhoncus tristique. Praesent in nibh diam. Curabitur eget scelerisque ex.</p>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras ac porta quam, non scelerisque leo. Suspendisse vitae magna eget tortor suscipit consequat id eu justo. Vestibulum pellentesque ligula eu arcu dignissim, nec cursus lorem viverra. Integer sollicitudin dui ut ipsum dignissim gravida. Duis ac iaculis urna. Nullam sed finibus dolor, quis commodo ipsum. Donec rhoncus eros at turpis maximus suscipit. Donec ac elit feugiat, porttitor orci nec, venenatis justo. Suspendisse tincidunt felis eget orci pharetra, tristique venenatis tellus pretium.</p>
+                <p>It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English. Many desktop publishing packages and web page editors now use Lorem Ipsum as their default model text, and a search for 'lorem ipsum' will uncover many web sites still in their infancy.</p>
+            </section>
+            
+            <section>
+            <h2 id="interno">Enalace interno</h2>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.<a href="Formato.html">Practica formato de texto</a> Proin ex augue, semper ut est in, dignissim sagittis ligula. Phasellus pretium nunc in magna fringilla iaculis. Quisque in imperdiet urna, a ultricies eros. Proin pellentesque eget justo nec aliquet.<a href="Listas.html">Practica listas</a> Vestibulum ut libero vitae tellus vehicula rutrum et sed felis. Quisque ac purus vestibulum, ullamcorper mi et, consectetur urna. Nulla consequat ipsum sit amet leo mattis faucibus. Pellentesque faucibus placerat lacinia. Integer tincidunt dui et dui facilisis ullamcorper. Cras id eros at quam rhoncus tristique. Praesent in nibh diam. Curabitur eget scelerisque ex.</p>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras ac porta quam, non scelerisque leo. Suspendisse vitae magna eget tortor suscipit consequat id eu justo. Vestibulum pellentesque ligula eu arcu dignissim, nec cursus lorem viverra. Integer sollicitudin dui ut ipsum dignissim gravida. Duis ac iaculis urna. Nullam sed finibus dolor, quis commodo ipsum. Donec rhoncus eros at turpis maximus suscipit. Donec ac elit feugiat, porttitor orci nec, venenatis justo. Suspendisse tincidunt felis eget orci pharetra, tristique venenatis tellus pretium.</p>
+                <p>It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English. Many desktop publishing packages and web page editors now use Lorem Ipsum as their default model text, and a search for 'lorem ipsum' will uncover many web sites still in their infancy.</p>
+            </section>
+            
+            <section>
+            <h2 id="email">Enalace a email</h2>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin ex augue, semper ut est in, dignissim sagittis ligula.<a href="mailto: andres.romero@gmail.com">Andrés Romero Sánchez</a> Phasellus pretium nunc in magna fringilla iaculis. Quisque in imperdiet urna, a ultricies eros. Proin pellentesque eget justo nec aliquet. Vestibulum ut libero vitae tellus vehicula rutrum et sed felis. Quisque ac purus vestibulum, ullamcorper mi et, consectetur urna. Nulla consequat ipsum sit amet leo mattis faucibus. Pellentesque faucibus placerat lacinia. Integer tincidunt dui et dui facilisis ullamcorper. Cras id eros at quam rhoncus tristique. Praesent in nibh diam. Curabitur eget scelerisque ex.</p>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras ac porta quam, non scelerisque leo. Suspendisse vitae magna eget tortor suscipit consequat id eu justo. Vestibulum pellentesque ligula eu arcu dignissim, nec cursus lorem viverra. Integer sollicitudin dui ut ipsum dignissim gravida. Duis ac iaculis urna. Nullam sed finibus dolor, quis commodo ipsum. Donec rhoncus eros at turpis maximus suscipit. Donec ac elit feugiat, porttitor orci nec, venenatis justo. Suspendisse tincidunt felis eget orci pharetra, tristique venenatis tellus pretium.</p>
+                <p>It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English. Many desktop publishing packages and web page editors now use Lorem Ipsum as their default model text, and a search for 'lorem ipsum' will uncover many web sites still in their infancy.</p>
+            </section>
+            
+            <section>
+            <h2 id="descargar">Enlace a descargar de archivo</h2>
+                <p>Lorem ipsum dolor sit amet, consectetur <a href="pdf/CodigoDavinci">Codigo Davinci</a> adipiscing elit. Proin ex augue, semper ut est in, dignissim sagittis ligula. Phasellus pretium nunc in magna fringilla iaculis. Quisque in imperdiet urna, a ultricies eros. Proin pellentesque eget justo nec aliquet. Vestibulum ut libero vitae tellus vehicula rutrum et sed felis. Quisque ac purus vestibulum, ullamcorper mi et, consectetur urna. Nulla consequat ipsum sit amet leo mattis faucibus. Pellentesque faucibus placerat lacinia. Integer tincidunt dui et dui facilisis ullamcorper. Cras id eros at quam rhoncus tristique. Praesent in nibh diam. Curabitur eget scelerisque ex.</p>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras ac porta quam, non scelerisque leo. Suspendisse vitae magna eget tortor suscipit consequat id eu justo. Vestibulum pellentesque ligula eu arcu dignissim, nec cursus lorem viverra. Integer sollicitudin dui ut ipsum dignissim gravida. Duis ac iaculis urna. Nullam sed finibus dolor, quis commodo ipsum. Donec rhoncus eros at turpis maximus suscipit. Donec ac elit feugiat, porttitor orci nec, venenatis justo. Suspendisse tincidunt felis eget orci pharetra, tristique venenatis tellus pretium.</p>
+                <p>It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English. Many desktop publishing packages and web page editors now use Lorem Ipsum as their default model text, and a search for 'lorem ipsum' will uncover many web sites still in their infancy.</p>
+            </section>
+            <nav>
+                <ul>
+                    <li><a href="#externo">Externo</a></li>
+                    <li><a href="#interno">Interno</a></li>
+                    <li><a href="#email">Email</a></li>
+                    <li><a href="#descargar">Descargar</a></li>
+                </ul>
+            </nav>
+        </main>
+            <footer>
+                <h6>Elaborado por Andrés Emilio Romero Sánchez</h6>
+        </footer>
+    </body>
+</html>
+    
+    
